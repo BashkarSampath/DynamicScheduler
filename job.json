@@ -1,0 +1,40 @@
+{
+  "id": 1233123123123,
+  "user":{
+	"id": 331723643
+	},
+  "app_engine": {
+    "http_properties": {
+      "http_headers": {
+        "additionalProp1": "string",
+        "additionalProp2": "string",
+        "additionalProp3": "string"
+      },
+      "http_method": "DELETE",
+      "request_body": "string",
+      "service": "string",
+      "url": "string",
+      "version": "string"
+    },
+    "type": "HTTP"
+  },
+  "retry_config": {
+    "max_backoff_duration_ms": 0,
+    "max_doublings": 0,
+    "max_retry_attempts": 0,
+    "max_retry_duration_ms": 0,
+    "min_backoff_duration_ms": 0
+  },
+  "schedule": {
+    "description": "string",
+    "frequency_cron": "string",
+    "name": "string",
+    "timezone": "ACT",
+    "created_timestamp": "",
+    "modified_timestamp":"",
+    "completed":"",
+    "paused":"",
+    "cancelled":"",
+    "memo":""
+  }
+}
